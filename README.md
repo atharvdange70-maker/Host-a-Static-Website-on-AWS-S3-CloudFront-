@@ -95,3 +95,14 @@ Your website is LIVE 🌍
 No server needed
 
 Fully hosted on S3
+
+
+
+
+
+
+project explanation
+
+
+
+"I hosted a static website on AWS S3 Amazon S3  is a storage service where we can store files like HTML, CSS, JavaScript, and images. To host a static website, we create an S3 bucket, upload our website files, and enable ‘static website hosting’ in the bucket settings. We also make the bucket public so anyone can access it. After this, AWS provides a URL, and our website becomes live on the internet without needing a server."
