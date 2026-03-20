@@ -6,7 +6,8 @@ A live website (HTML/CSS) hosted using:
 
 Amazon S3 (storage)
 
-Amazon CloudFront (fast global delivery)
+Amazon CloudFront (fast global delivery) 
+
 
  Step 1: Create a simple website
 
@@ -30,7 +31,7 @@ Example:
 </html>
 ✅ Step 2: Create an S3 Bucket
 
-1.0Go to AWS Console
+1. Go to AWS Console
 
 2. Search for S3
 
