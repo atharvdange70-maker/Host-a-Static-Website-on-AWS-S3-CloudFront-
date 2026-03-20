@@ -17,18 +17,7 @@ On your computer:
 
 2. Inside it, create a file index.html
 
-Example:
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My AWS Website</title>
-</head>
-<body>
-  <h1>Hello from AWS 🚀</h1>
-  <p>This is my first cloud project.</p>
-</body>
-</html>
 ✅ Step 2: Create an S3 Bucket
 
 1. Go to AWS Console
@@ -44,6 +33,7 @@ Example:
 6. Uncheck "Block all public access"
 
 7. Create bucket
+   
 
 ✅ Step 3: Upload Website Files
 
@@ -54,6 +44,7 @@ Example:
 3. Add your index.html
 
 4.Click Upload
+
 
 ✅ Step 4: Enable Static Website Hosting
 
@@ -69,6 +60,7 @@ Index document: index.html
 
 5. Save
 
+
 👉 You’ll get a Bucket Website URL
 
 ✅ Step 5: Make Files Public
@@ -76,20 +68,7 @@ Index document: index.html
 1. Go to Permissions tab
 
 2. Add bucket policy:
-
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicRead",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": ["s3:GetObject"],
-      "Resource": ["arn:aws:s3:::YOUR-BUCKET-NAME/*"]
-    }
-  ]
-}
-
+   Copy Paste Bucket-policy.jason file under code
 Replace YOUR-BUCKET-NAME
 
 ✅ Step 6: Access Your Website
