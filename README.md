@@ -1,4 +1,4 @@
-# Host-a-Static-Website-on-AWS-S3-CloudFront-
+# Host-a-Static-Website-on-AWS-S3
 
 What you’ll build
 
