@@ -14,7 +14,7 @@ On your computer:
 
 1. Create a folder my-website
 
-2.0Inside it, create a file index.html
+2. Inside it, create a file index.html
 
 Example:
 
