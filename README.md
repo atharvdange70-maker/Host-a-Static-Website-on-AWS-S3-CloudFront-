@@ -8,14 +8,13 @@ Amazon S3 (storage)
 
 Amazon CloudFront (fast global delivery)
 
-🪜 Step-by-Step Guide
-✅ Step 1: Create a simple website
+ Step 1: Create a simple website
 
 On your computer:
 
-Create a folder my-website
+1. Create a folder my-website
 
-Inside it, create a file index.html
+2.0Inside it, create a file index.html
 
 Example:
 
@@ -31,51 +30,51 @@ Example:
 </html>
 ✅ Step 2: Create an S3 Bucket
 
-Go to AWS Console
+1.0Go to AWS Console
 
-Search for S3
+2. Search for S3
 
-Click Create bucket
+3. Click Create bucket
 
-Give a unique name (e.g., my-aws-site-12345)
+4. Give a unique name (e.g., my-aws-site-12345)
 
-Choose region (closest: Mumbai)
+5. Choose region (closest: Mumbai)
 
-Uncheck "Block all public access"
+6. Uncheck "Block all public access"
 
-Create bucket
+7. Create bucket
 
 ✅ Step 3: Upload Website Files
 
-Open your bucket
+1. Open your bucket
 
-Click Upload
+2. Click Upload
 
-Add your index.html
+3. Add your index.html
 
-Click Upload
+4.Click Upload
 
 ✅ Step 4: Enable Static Website Hosting
 
-Go to Properties tab
+1. Go to Properties tab
 
-Scroll to Static website hosting
+2. Scroll to Static website hosting
 
-Enable it
+3. Enable it
 
-Enter:
+4. Enter:
 
 Index document: index.html
 
-Save
+5. Save
 
 👉 You’ll get a Bucket Website URL
 
 ✅ Step 5: Make Files Public
 
-Go to Permissions tab
+1. Go to Permissions tab
 
-Add bucket policy:
+2. Add bucket policy:
 
 {
   "Version": "2012-10-17",
